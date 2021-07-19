@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding-top: 800px;
+    text-align: center;
 }
 
 .profile {
@@ -81,7 +82,7 @@ p {
 }
 .links {
     float: left;
-    color: aliceblue;
+    color: deeppink;
     padding-top: 5px;
     padding-left: 9px;
     padding-right: 9px;
@@ -92,4 +93,16 @@ p {
 
 .links:hover {
     background-color: skyblue;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: underline;
+}
+
+.article:hover {
+    color: darkblue;
 }
